@@ -1,4 +1,4 @@
 # Serializable_javaCore_2
-/.idea/
 /out/
+/.idea/
 sava_javaCore.iml
