@@ -15,11 +15,11 @@ public class Main {
 
         List<String> list = new ArrayList<>();
 
-        saveGame(gameProgress1, "D:\\ystanovka\\src\\ru\\netoligy\\Games\\savegames\\save1.dat", list);
-        saveGame(gameProgress2, "D:\\ystanovka\\src\\ru\\netoligy\\Games\\savegames\\save2.dat", list);
-        saveGame(gameProgress3, "D:\\ystanovka\\src\\ru\\netoligy\\Games\\savegames\\save3.dat", list);
+        saveGame(gameProgress1, "D:\\Ystanovka_JavaCore_1.1\\src\\ru\\netoligy\\Games\\savegames\\save1.dat", list);
+        saveGame(gameProgress2, "D:\\Ystanovka_JavaCore_1.1\\src\\ru\\netoligy\\Games\\savegames\\save2.dat", list);
+        saveGame(gameProgress3, "D:\\Ystanovka_JavaCore_1.1\\src\\ru\\netoligy\\Games\\savegames\\save3.dat", list);
 
-        zipFiles("D:\\ystanovka\\src\\ru\\netoligy\\Games\\savegames\\zip.zip", list);
+        zipFiles("D:\\Ystanovka_JavaCore_1.1\\src\\ru\\netoligy\\Games\\savegames\\zip.zip", list);
     }
 
     public static List<String> saveGame(GameProgress gameProgress, String save, List<String> list) {
